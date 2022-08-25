@@ -23,5 +23,6 @@ public class SinglepageApplication implements CommandLineRunner {
 		this.userRepository.save(new User("Tom", "Bombadil", "tom.bombadil@gmail.com"));
 		this.userRepository.save(new User("Thorin", "Oakenshield", "thorin.oakenshield@gmail.com"));
 		this.userRepository.save(new User("Peregrin", "Took", "foolofatook@gmail.com"));
+		this.userRepository.save(new User("Gandalf", "the Gray", "graybeard@gmail.com"));
 	}
 }
